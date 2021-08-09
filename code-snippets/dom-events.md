@@ -364,4 +364,109 @@
 </details>
 
 </li>
+
+---
+
+<li>
+  
+**What will be the output ?**
+
+```HTML
+<p onclick="console.log('One')">
+  <div onclick="console.log('Two')">
+    <h1 onclick="console.log('Three')">
+      Click Me
+    </h1>
+  </div>
+</p>
+```
+
+- A: `One`
+- B: `Three`
+- C: `One Two Three`
+- D: `Three Two`
+- E: `Three Two one`
+
+<br/>
+
+<details>
+<summary><b>Answer</b></summary>
+<p>
+
+#### Option: D
+
+</p>
+</details>
+
+</li>
+
+---
+
+<li>
+  
+**What will be the output ?**
+
+```HTML
+<div onclick="console.log('One')">
+  <div onclick="event.stopPropagation();console.log('Two');">
+    <div onclick="console.log('Three')">
+      Click Me
+    </div>
+  </div>
+</div>
+```
+
+- A: `One`
+- B: `Three`
+- C: `One Two Three`
+- D: `Three Two`
+- E: `Three Two one`
+
+<br/>
+
+<details>
+<summary><b>Answer</b></summary>
+<p>
+
+#### Option: D
+
+</p>
+</details>
+
+</li>
+
+---
+
+<li>
+  
+**What will be the output ?**
+
+```HTML
+<div onclick="console.log('One')">
+  <div onclick="return false;console.log('Two');">
+    <div onclick="console.log('Three')">
+      Click Me
+    </div>
+  </div>
+</div>
+```
+
+- A: `One`
+- B: `Three`
+- C: `One Two Three`
+- D: `Three Two`
+- E: `Three Two one`
+
+<br/>
+
+<details>
+<summary><b>Answer</b></summary>
+<p>
+
+#### Option: None of the above
+
+</p>
+</details>
+
+</li>
 </ol>

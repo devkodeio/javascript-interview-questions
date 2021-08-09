@@ -21,4 +21,6 @@
 - Objects
 - Closure
 - Try / Catch / Finally
+- Promise
+- Async/Await
 - and many more...
