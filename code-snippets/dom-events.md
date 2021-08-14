@@ -44,7 +44,7 @@
 
 <script>
   const button = document.getElementById('button');
-  
+
   button.onclick = function() {
     console.log('Two');
   }
@@ -82,7 +82,7 @@
 
 <script>
   const button = document.getElementById('button');
-  
+
   button.addEventListener('click', function() {
     console.log('Two');
   });
@@ -120,7 +120,7 @@
 
 <script>
   const button = document.getElementById('button');
-  
+
   button.addEventListener('click', function() {
     console.log('Two');
   });
@@ -162,7 +162,7 @@
 
 <script>
   const button = document.getElementById('button');
-  
+
   button.addEventListener('click', function() {
     console.log('One');
   });
@@ -204,15 +204,15 @@
 
 <script>
   const button = document.getElementById('button');
-  
+
   button.addEventListener('click', function() {
     console.log('One');
   });
-  
+
   button.onclick = function() {
     console.log('Two');
   }
-  
+
   button.setAttribute('onclick', "console.log('Three')");
 </script>
 ```
@@ -248,11 +248,11 @@
 
 <script>
   const button = document.getElementById('button');
-  
+
   button.addEventListener('click', function() {
     console.log('Two');
   });
-  
+
   button.addEventListener('click', function() {
     console.log('Three');
   }, false);
@@ -290,13 +290,13 @@
 
 <script>
   const button = document.getElementById('button');
-  
+
   function clickHandler() {
   	console.log('Two');
   }
-  
+
   button.addEventListener('click', clickHandler);
-  
+
   button.addEventListener('click', clickHandler, false);
 </script>
 ```
@@ -332,15 +332,15 @@
 
 <script>
   const button = document.getElementById('button');
-  
+
   button.onclick = function() {
     console.log('One');
   }
-  
+
   button.addEventListener('click', function() {
     console.log('Two');
   });
-  
+
   setTimeout(function(){
     button.click();
   }, 1000);
