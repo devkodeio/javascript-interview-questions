@@ -4,6 +4,14 @@
 
 <div align="center">
     <h3>Collection of modern interview challenges on Javascript suitable</h3>
+    <div align="center">
+        <p>
+            <a name="stars"><img src="https://img.shields.io/github/stars/devkodeio/javascript-interview-questions?style=for-the-badge"></a>
+            <a name="forks"><img src="https://img.shields.io/github/forks/devkodeio/javascript-interview-questions?logoColor=green&style=for-the-badge"></a>
+            <a name="contributions"><img src="https://img.shields.io/github/contributors/devkodeio/javascript-interview-questions?logoColor=green&style=for-the-badge"></a>
+            <a name="license"><img src="https://img.shields.io/github/license/sadanandpai/javascript-code-challenges?style=for-the-badge"></a>
+        </p>
+    </div>
     <h4>Show your support by giving a ⭐  to this repo</h4>
     <h4>Join our <a href="https://t.me/teamdevkode" target="blank">Telegram</a> community</h4>
 </div>
