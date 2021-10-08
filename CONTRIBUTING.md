@@ -16,3 +16,6 @@
 
 - There should have minimum 2 options
 - Try to keep the options closer to the answer to make it interesting
+- Answer should be provided for each question
+
+To know the standards followed, please refer to the existing completed question.
