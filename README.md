@@ -34,11 +34,11 @@ If you want to contribute, improve or suggest changes to this repo, then check o
 
 ### Stargazers
 
-[![Stargazers repo roster for @sadanandpai/javascript-code-challenges](https://reporoster.com/stars/sadanandpai/javascript-code-challenges)](https://github.com/devkodeio/javascript-interview-questions/stargazers)
+[![Stargazers repo roster for @devkodeio/javascript-interview-questions](https://reporoster.com/stars/devkodeio/javascript-interview-questions)](https://github.com/devkodeio/javascript-interview-questions/stargazers)
 
 ### Forkers
 
-[![Forkers repo roster for @sadanandpai/javascript-code-challenges](https://reporoster.com/forks/sadanandpai/javascript-code-challenges)](https://github.com/devkodeio/javascript-interview-questions/network/members)
+[![Forkers repo roster for @devkodeio/javascript-interview-questions](https://reporoster.com/forks/devkodeio/javascript-interview-questions)](https://github.com/devkodeio/javascript-interview-questions/network/members)
 
 ### License
 
