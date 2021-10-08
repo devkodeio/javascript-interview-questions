@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-    <h3>Collection of modern interview challenges on Javascript suitable</h3>
+    <h3>Collection of modern interview challenges on Javascript</h3>
     <div align="center">
         <p>
             <a name="stars"><img src="https://img.shields.io/github/stars/devkodeio/javascript-interview-questions?style=for-the-badge"></a>
