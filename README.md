@@ -5,21 +5,33 @@
 <div align="center">
     <h3>Collection of modern interview challenges on Javascript suitable</h3>
     <h4>Show your support by giving a ⭐  to this repo</h4>
-    <h4><a href="https://linkedin.com/in/sunnypuri" target="blank">LinkedIn</a> | <a href="https://t.me/teamdevkode" target="blank">Telegram</a></h4>
+    <h4>Join our <a href="https://t.me/teamdevkode" target="blank">Telegram</a> community</h4>
 </div>
 
 ---
 
 - [DOM Events](./code-snippets/dom-events.md)
 - [Hoisting](./code-snippets/hoisting.md)
-- This
-- Use Strict
-- Arrow Function
-- Let and const
-- Call, bind and apply
+- Scopes & Closures
+- Functions
 - Objects
-- Closure
-- Try / Catch / Finally
-- Promise
+- Error handling
+- Promises
 - Async/Await
-- and many more...
+
+### Contributing Guide
+
+If you want to contribute, improve or suggest changes to this repo, then check out the [Contributing Guide](./contributing.md)
+<br/><br/>
+
+### Stargazers
+
+[![Stargazers repo roster for @sadanandpai/javascript-code-challenges](https://reporoster.com/stars/sadanandpai/javascript-code-challenges)](https://github.com/devkodeio/javascript-interview-questions/stargazers)
+
+### Forkers
+
+[![Forkers repo roster for @sadanandpai/javascript-code-challenges](https://reporoster.com/forks/sadanandpai/javascript-code-challenges)](https://github.com/devkodeio/javascript-interview-questions/network/members)
+
+### License
+
+This repository is MIT licensed. [Read more](./LICENSE)
