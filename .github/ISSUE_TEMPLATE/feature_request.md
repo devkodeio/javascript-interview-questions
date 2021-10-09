@@ -1,20 +1,12 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: ''
+topic: Topic name of JavaScript or Frontend
+about: Idea
 labels: ''
-assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**How many questions do you think, this questions can have**
+How many questions can be created for this topic if people start contributing
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
-
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**Do you already have the questions for this section**
+Number of questions you have right now
