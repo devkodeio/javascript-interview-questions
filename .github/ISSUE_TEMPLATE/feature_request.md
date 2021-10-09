@@ -1,7 +1,6 @@
 ---
-topic: Topic name of JavaScript or Frontend
+name: Topic name of JavaScript or Frontend
 about: Idea
-name: 'Topic'
 labels: ''
 
 ---
