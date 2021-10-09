@@ -1,6 +1,7 @@
 ---
 topic: Topic name of JavaScript or Frontend
 about: Idea
+name: ''
 labels: ''
 
 ---
