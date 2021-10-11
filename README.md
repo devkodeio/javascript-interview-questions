@@ -24,7 +24,7 @@
 -   Functions
 -   Objects
 -   Error handling
--   Promises(./code-snippets/promises.md)
+-   [Promises](./code-snippets/promises.md)
 -   Async/Await
 
 ### Contributing Guide
