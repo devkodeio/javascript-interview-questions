@@ -18,24 +18,24 @@
 
 ---
 
-- [DOM Events](./code-snippets/dom-events.md)
-- [Hoisting](./code-snippets/hoisting.md)
-- Scopes & Closures
-- Functions
-- Objects
-- Error handling
-- Promises
-- Async/Await
+-   [DOM Events](./code-snippets/dom-events.md)
+-   [Hoisting](./code-snippets/hoisting.md)
+-   Scopes & Closures
+-   Functions
+-   Objects
+-   Error handling
+-   Promises
+-   Async/Await
 
 ### Contributing Guide
 
-If you want to contribute, improve or suggest changes to this repo, then check out the [Contributing Guide](./contributing.md)
+If you want to contribute, improve or suggest changes to this repo, then check out the [Contributing Guide](./CONTRIBUTING.md)
 <br/><br/>
 
 ### Contributors
 
 &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/devkodeio/javascript-interview-questions/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=devkodeio/javascript-interview-questions" />
+<img src="https://contrib.rocks/image?repo=devkodeio/javascript-interview-questions" />
 </a>
 
 ### Stargazers
