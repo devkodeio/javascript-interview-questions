@@ -3,7 +3,6 @@
 </div>
 
 <ol>
-
 <li>
 
 **What will be the Output??**
@@ -49,6 +48,7 @@ function fun(num1) {
     }
     return TDK;
 }
+
 var TeamDevKode = fun(5)
 TeamDevKode ()
 ```
@@ -240,3 +240,4 @@ foo();
 </li>
 
 ---
+</ol>
