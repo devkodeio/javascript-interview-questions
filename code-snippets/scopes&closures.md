@@ -38,5 +38,42 @@ const func = foo(7);
 </details>
 
 </li>
+
+---
+
+<li>
+
+
+**What will be the output ?**
+
+```JS
+const fn = () => {
+  a = 2;
+  console.log(a);
+}
+
+fn();
+
+
+```
+
+- A: `undefined`
+- B: `2`
+- C: `Uncaught ReferenceError: a is not defined`
+
+<br/>
+
+<details>
+<summary><b>Answer</b></summary>
+<p>
+
+#### Option: B
+
+</p>
+</details>
+
+
+</li>
+
 </ol>
 
