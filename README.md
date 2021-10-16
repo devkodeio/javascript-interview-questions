@@ -20,7 +20,7 @@
 
 -   [DOM Events](./code-snippets/dom-events.md)
 -   [Hoisting](./code-snippets/hoisting.md)
--   Scopes & Closures
+-   [Scopes & Closures](./code-snippets/scopes&closures.md)
 -   Functions
 -   Objects
 -   Error handling
