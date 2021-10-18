@@ -217,6 +217,31 @@ foo();
 </details>
 
 </li>
+
+---
+
+<li>
+
+**What will be the output ?**
+
+```JS
+function animal(){
+  console.log("Cat");
+}
+
+var otherAnimal;
+
+animal();
+otherAnimal();
+
+otherAnimal = function() {
+  console.log("Dog");
+}
+```
+
+- A: `Cat Dog`
+- B: `Cat undefined`
+- C: `Cat TypeError: otherAnimal is not a function`
   
 ---
   
@@ -246,10 +271,12 @@ console.log(a,b);
 <summary><b>Answer</b></summary>
 <p>
 
+#### Option: C
 #### Option: A
 
 </p>
 </details>
 
+</li>
 </li>  
 </ol>
