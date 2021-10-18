@@ -243,6 +243,18 @@ otherAnimal = function() {
 - B: `Cat undefined`
 - C: `Cat TypeError: otherAnimal is not a function`
   
+<br/>
+
+<details>
+  
+<summary><b>Answer</b></summary>
+<p>
+
+#### Option: C
+
+</p>
+</details>  
+
 ---
   
 <li>
