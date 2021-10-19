@@ -60,6 +60,7 @@ fn();
 - A: `undefined`
 - B: `2`
 - C: `Uncaught ReferenceError: a is not defined`
+  d
 
 <br/>
 
