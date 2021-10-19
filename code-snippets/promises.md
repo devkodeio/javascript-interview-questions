@@ -217,4 +217,38 @@ examplePromise
 
 ---
 
+<li>
+
+**What is the output?**
+
+```JS
+new Promise((resolve, reject) => {
+  console.log(4)
+  resolve(5)
+  console.log(6)
+}).then(() => console.log(7))
+.catch(() => console.log(8))
+.then(() => console.log(9))
+.catch(() => console.log(10))
+.then(() => console.log(11))
+.then(console.log)
+.finally(() => console.log(12))
+```
+
+- A: `4 6 7 9 11 12`
+- B: `4 6 7 9 11 undefined 12`
+- C: `4 6 8 12`
+
+<br/>
+<details>
+<summary><b>Answer</b></summary>
+<p>
+
+#### Option: B
+
+</p>
+</details>
+</li>
+
+
 </ol>
