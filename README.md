@@ -21,8 +21,8 @@
 -   [DOM Events](./code-snippets/dom-events.md)
 -   [Hoisting](./code-snippets/hoisting.md)
 -   [Scopes & Closures](./code-snippets/scopes&closures.md)
--   Functions
--   Objects
+-   [Functions](./code-snippets/functions.md)
+-   [Objects](./code-snippets/objects.md)
 -   Error handling
 -   [Promises](./code-snippets/promises.md)
 -   Async/Await
