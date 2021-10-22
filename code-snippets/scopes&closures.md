@@ -71,9 +71,37 @@ fn();
 
 </p>
 </details>
-
-
 </li>
+ 
+  ---
+
+<li>
+
+**What will be the output ?**
+
+```JS
+for (var i = 0; i < 4; i++) {
+  setTimeout(() => console.log(i), 0)
+}
+
+```
+
+- A: `0 1 2 3`
+- B: `4 4 4 4`
+
+<br/>
+
+<details>
+<summary><b>Answer</b></summary>
+<p>
+
+#### Option: B
+
+</p>
+</details>
+</li>
+---
+  
 
 </ol>
 
