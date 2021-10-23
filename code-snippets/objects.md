@@ -115,7 +115,7 @@ console.log(obj1);
   }
 }
 
-console.log(greet({ name: 'amy' }))
+console.log(greet({ name: 'Narendra Modi' }))
 ```
 
 - A: `hey Narendra Modi`
