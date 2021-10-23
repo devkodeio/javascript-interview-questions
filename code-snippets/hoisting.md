@@ -278,5 +278,70 @@ console.log(a,b);
 </details>
 
 </li>
+ <li>
+
+**What are the logged values of a and b ?**
+
+```JS
+var a = 10;
+console.log("line number 2", a);
+
+function fn() {
+  console.log("line number 4", a);
+  var a = 20;
+  a++;
+  console.log("line number 7", a);
+  if (a) {
+    var a = 30;
+    a++;
+    console.log("line number 11", a);
+  }
+  console.log("line number 13", a);
+}
+fn();
+console.log("line number 2", a);
+```
+
+- A:
+```HTML
+line number 2 10
+line number 4 10
+line number 7 21
+line number 7 31
+line number 13 31
+line number 2 31
+```
+- B:
+```HTML
+
+line number 2 10
+line number 4 undefined
+line number 7 21
+line number 11 31
+line number 13 31
+line number 2 10
+```
+- C:
+```HTML
+line number 2 10
+line number 4 10
+line number 7 21
+line number 11 31
+line number 13 31
+line number 2 10
+```
+
+<br/>
+
+<details>
+<summary><b>Answer</b></summary>
+<p>
+
+#### Option: B
+
+</p>
+</details>
+
+</li>
 </li>  
 </ol>
