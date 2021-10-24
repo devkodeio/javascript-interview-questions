@@ -217,4 +217,66 @@ foo();
 </details>
 
 </li>
+
+---
+
+<li>
+
+**What will be the output ?**
+
+```JS
+function animal(){
+  console.log("Cat");
+}
+
+var otherAnimal;
+
+animal();
+otherAnimal();
+
+otherAnimal = function() {
+  console.log("Dog");
+}
+```
+
+- A: `Cat Dog`
+- B: `Cat undefined`
+- C: `Cat TypeError: otherAnimal is not a function`
+  
+---
+  
+<li>
+
+**What are the logged values of a and b ?**
+
+```JS
+b = function a(){};
+var a = b = 6;
+a = function b(){};
+function b() {};
+function a() {};
+console.log(a,b);
+```
+
+- A: `ƒ b(){} 6`
+- B: `ƒ a(){} 6`
+- C: `ƒ b(){} ƒ a(){}`
+- D: `ƒ a(){} ƒ b(){}`
+- E: `6 ƒ a(){}`
+- F: `6 ƒ b(){}`
+
+<br/>
+
+<details>
+<summary><b>Answer</b></summary>
+<p>
+
+#### Option: C
+#### Option: A
+
+</p>
+</details>
+
+</li>
+</li>  
 </ol>
