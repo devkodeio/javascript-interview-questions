@@ -21,10 +21,10 @@ function foo(a){
 const func = foo(7);
 ```
 
-- A: `a and d`
-- B: `a,b and d`
-- C: `a,b,c and d`
-- D: `a,d and c`
+-   A: `a and d`
+-   B: `a,b and d`
+-   C: `a,b,c and d`
+-   D: `a,d and c`
 
 <br/>
 
@@ -43,7 +43,6 @@ const func = foo(7);
 
 <li>
 
-
 **What will be the output ?**
 
 ```JS
@@ -57,9 +56,9 @@ fn();
 
 ```
 
-- A: `undefined`
-- B: `2`
-- C: `Uncaught ReferenceError: a is not defined`
+-   A: `undefined`
+-   B: `2`
+-   C: `Uncaught ReferenceError: a is not defined`
 
 <br/>
 
@@ -86,8 +85,8 @@ for (var i = 0; i < 4; i++) {
 
 ```
 
-- A: `0 1 2 3`
-- B: `4 4 4 4`
+-   A: `0 1 2 3`
+-   B: `4 4 4 4`
 
 <br/>
 
@@ -100,8 +99,37 @@ for (var i = 0; i < 4; i++) {
 </p>
 </details>
 </li>
+
 ---
-  
+
+<li>
+
+**What will be the output?**
+
+```JavaScript
+for(let i = 0; i < 5; i++){
+    setTimeout(() => console.log(i), 1);
+}
+```
+
+-   A: `0 0 0 0 0`
+-   B: `1 2 3 4 5`
+-   C: `5 5 5 5 5`
+-   D: `0 1 2 3 4`
+
+<br/>
+
+<details>
+<summary><b>Answer</b></summary>
+
+<p>
+
+#### Option: D
+
+</p>
+
+</details>
+
+</li>
 
 </ol>
-
