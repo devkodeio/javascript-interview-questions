@@ -250,5 +250,77 @@ new Promise((resolve, reject) => {
 </details>
 </li>
 
+---
+
+<li>
+
+**What's the output of the following Promise Operation?**
+
+```JS
+const promise_1 = Promise.resolve('First');
+const promise_2 = Promise.resolve('Second');
+const promise_3 = Promise.reject('Third');
+const promise_4 = Promise.resolve('Fourth');
+
+const runPromises = async () => {
+	const res1  = await Promise.all([promise_1, promise_2])
+	const res2  = await Promise.all([promise_3, promise_4])
+	return [res1, res2];
+}
+
+runPromises()
+	.then(res => console.log(res))
+	.catch(err => console.log(err))
+```
+
+- A: `[['First', 'Second'], ['Third']]`
+- B: `[['First', 'Second'], ['Third', 'Fourth']]`
+- C: `[['First', 'Second']]`
+- D: `'Third'`
+
+<br/>
+<details>
+<summary><b>Answer</b></summary>
+<p>
+
+#### Option: D
+
+> `Promise.all[...promises]` method wait for an array of promises to resolve. Promise.all() will reject immediately upon any of the input promises being rejected. In our case, During runPromises() function invocation, promise_3 gets rejected with the value 'Third'. The value gets logged to the console, via error handling Promise Instance Method `catch()`. As a result, 'Third' gets printed.
+
+</p>
+</details>
+</li>
+
+---
+
+<li>
+
+**What's the output of the following Promise operation?**
+
+```JS
+var p = new Promise((resolve, reject) => {
+  reject(Error('The Fails!'))
+})
+p.catch(error => console.log(error.message))
+p.catch(error => console.log(error.message))
+```
+
+- A: `print error message once`
+- B: `print error message twice`
+- C: `Unhandled Promise Rejection warning`
+- D: `process exits`
+
+<br/>
+<details>
+<summary><b>Answer</b></summary>
+<p>
+
+#### Option: B
+
+> The promise `p` gets rejected due to `reject` callback in Promise Constructor and the error message gets attached to the `.catch()` method. In this case, `.catch()` works like the DOM `.addEventListener('event', callback`) method. Both catch method will be called separately with the same arguments. Hence, the error message gets printed twice.
+
+</p>
+</details>
+</li>
 
 </ol>
