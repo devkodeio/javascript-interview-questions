@@ -493,5 +493,37 @@ set.has(1);
 </li>
 
 ---
+ 
+<li>
+
+**What will be the output ?**
+
+```JS
+var num = "10";
+(function () {
+	console.log(num);
+  var num = "50";
+  console.log(num);}
+  )();
+```
+
+- A: `undefined 50`
+- B: `50 50`
+- C: `10 10`
+
+<br/>
+
+<details>
+<summary><b>Answer</b></summary>
+<p>
+
+#### Option: A
+
+</p>
+</details>
+
+</li>
+
+---
 
 </ol>
