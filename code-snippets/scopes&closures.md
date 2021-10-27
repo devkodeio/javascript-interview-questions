@@ -132,4 +132,41 @@ for(let i = 0; i < 5; i++){
 
 </li>
 
+  
+---
+
+<li>
+
+**What will be the output?**
+
+```JavaScript
+let count = 0;
+(function immediate() {
+  if (count === 0) {
+    let count = 1;
+    console.log(count);
+  }
+  console.log(count);
+})();
+```
+
+-   A: `0 0`
+-   B: `1 1`
+-   C: `1 0`
+-   D: `0 1`
+
+<br/>
+
+<details>
+<summary><b>Answer</b></summary>
+
+<p>
+
+#### Option: C
+
+</p>
+
+</details>
+
+</li>
 </ol>
