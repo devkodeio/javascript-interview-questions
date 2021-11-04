@@ -344,4 +344,40 @@ line number 2 10
 
 </li>
 </li>  
+
+---
+
+<li>
+
+**What will be the output?**
+
+```JS
+function foo() {
+  let a = b = 0;
+  a++;
+  return a;
+}
+
+foo();
+console.log(typeof a);
+console.log(typeof b);
+```
+
+- A: `number \n number`
+- B: `undefined \n number`
+- C: `undefined \n undefined`
+- D: `number \n undefined`
+
+<br/>
+<details>
+<summary><b>Answer</b></summary>
+
+<p>
+
+#### Option: B
+
+</p>
+
+</details>
+</li>
 </ol>

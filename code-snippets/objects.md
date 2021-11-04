@@ -62,6 +62,7 @@ console.log(TDK);
 </li>
 
 ---
+
  <li>
 
 **What will be the output?**
@@ -134,5 +135,29 @@ console.log(greet({ name: 'Narendra Modi' }))
 
 ---
 
+<li>
+
+**What will be the output?**
+
+```JS
+const sample = ["xyz", "abc", "test", "ryan", "apple"];
+delete sample[3];
+console.log(sample.length);
+```
+
+- A: `4`
+- B: `5`
+- C: `Error updating the constant variable.`
+
+<br/>
+<details>
+<summary><b>Answer</b></summary>
+<p>
+
+#### Option: B
+
+</p>
+</details>
+</li>
 
 </ol>

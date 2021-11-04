@@ -323,4 +323,41 @@ p.catch(error => console.log(error.message))
 </details>
 </li>
 
+---
+
+<li>
+
+**What's the order of output of the following Promise operation?**
+
+```JS
+console.log('initial');
+setTimeout(function() {
+   console.log('setTimeout');
+}, 0);
+var promise = new Promise(function(resolve, reject) {
+   resolve();
+});
+promise.then(function(resolve) {
+   console.log('1st Promise');
+})
+.then(function(resolve) {
+   console.log('2nd Promise');
+});
+console.log('final');
+```
+
+- A: `initial \n 1st Promise \n 2nd Promise \n setTimeout \n final`
+- B: `initial \n final \n 1st Promise \n 2nd Promise \n setTimeout`
+- C: `initial \n setTimeout \n 1st Promise \n 2nd Promise \n final`
+- D: `initial \n final \n 1st Promise \n setTimeout \n 2nd Promise`
+
+<br/>
+<details>
+<summary><b>Answer</b></summary>
+<p>
+
+#### Option: B
+
+</li>
+
 </ol>
