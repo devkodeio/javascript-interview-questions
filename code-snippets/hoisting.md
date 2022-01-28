@@ -244,6 +244,15 @@ otherAnimal = function() {
 - C: `Cat TypeError: otherAnimal is not a function`
   
 ---
+
+<details>
+<summary><b>Answer</b></summary>
+<p>
+
+#### Option: C
+
+</p>
+</details>
   
 <li>
 
@@ -271,7 +280,6 @@ console.log(a,b);
 <summary><b>Answer</b></summary>
 <p>
 
-#### Option: C
 #### Option: A
 
 </p>
