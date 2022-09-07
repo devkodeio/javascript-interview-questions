@@ -22,6 +22,7 @@
 -   [Hoisting](./code-snippets/hoisting.md)
 -   [Scopes & Closures](./code-snippets/scopes&closures.md)
 -   [Functions](./code-snippets/functions.md)
+-   [Arrays](./code-snippets/arrays.md)
 -   [Objects](./code-snippets/objects.md)
 -   Error handling
 -   [Promises](./code-snippets/promises.md)
