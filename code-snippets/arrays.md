@@ -147,42 +147,6 @@ console.log(newArray)
 
 <li>
 
-**Guess the output**
-
-```JS
- let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-function checkNum(num) {
-    return num > 4;
-}
-let newArray = [array.filter(checkNum).map((item, index) => {
-    return item - array[index]
-}).reduce((acc, curr) => {
-    return acc + curr
-})]
-
-console.log(newArray)
-```
-
-- A: `[ 24 ]`
-- B: `24`
-- C: `NaN`
-- D: `Undefined`
-
-<br/>
-<details>
-<summary><b>Answer</b></summary>
-<p>
-
-#### Option: A
-
-</p>
-</details>
-</li>
-
----
-
-<li>
-
 **Guess the following output?**
 
 ```JS
