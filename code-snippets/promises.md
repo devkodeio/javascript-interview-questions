@@ -89,7 +89,7 @@ validateUsernamePassword("ABC", "123")
 
 <li>
 
-**While**
+**What will be the output?**
 
 ```JS
 let setTimeoutResolveReject = new Promise((resolve, reject) => {
