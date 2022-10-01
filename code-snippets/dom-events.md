@@ -469,4 +469,42 @@
 </details>
 
 </li>
+
+---
+
+<li>
+  
+**What will be the output ?**
+
+```HTML
+<div>
+  <div class="number-box">1</div>
+  <div class="number-box">2</div>
+  <div class="number-box">3</div>
+  <div class="number-box">4</div>
+</div>
+  <script>
+  const arr = document.querySelectorAll('.number-box');
+  console.log(arr);
+</script>
+```
+
+- A: `array of length 4`
+- B: `undefined`
+- C: `NodeList of length 4`
+- D: `empty array`
+- E: `empty NodeList`
+
+<br/>
+
+<details>
+<summary><b>Answer</b></summary>
+<p>
+
+#### Option: C
+
+</p>
+</details>
+
+</li>
 </ol>
