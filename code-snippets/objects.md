@@ -161,3 +161,36 @@ console.log(sample.length);
 </li>
 
 </ol>
+
+---
+
+<li>
+
+**What will be the output?**
+
+```JS
+const fruits_obj = { 0 : "apple" , 1 : "mango" ,  2:"banana"};
+const fruits_arr = ["apple","mango", "banana"];
+
+console.log(typeof fruits_obj);
+console.log(typeof fruits_arr);
+console.log(fruits_obj == fruits_arr);
+``` 
+
+- A: `Object , Array , False`
+- B: `Object , Array , True`
+- C: `Object , Object , False`
+- D: `Object , Object , True`
+
+<br/>
+<details>
+<summary><b>Answer</b></summary>
+<p>
+
+#### Option: C
+
+</p>
+</details>
+</li>
+
+</ol>
