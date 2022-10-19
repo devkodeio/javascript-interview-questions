@@ -169,4 +169,40 @@ let count = 0;
 </details>
 
 </li>
+
+---
+
+<li>
+
+**what would be the typeof a and typeof b**
+
+````function foo() {
+  let a = b = 0;
+  a++;
+  return a;
+}
+foo();
+console.log(typeof a)
+console.log(typeof b)
+````
+  
+-   A: `Number Number`
+-   B: `Number undefined`
+-   C: `undefined Number`
+-   D: `not define not define`
+
+<br/>
+  
+  <details>
+<summary><b>Answer</b></summary>
+
+<p>
+
+#### Option: C
+
+</p>
+
+</details>
+
+</li>
 </ol>
