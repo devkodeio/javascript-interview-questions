@@ -309,4 +309,33 @@ console.log(array3.concat(6, 7));
 </p>
 </details>
 </li>
+
+---
+
+<li>
+
+**Guess the following output?**
+
+```JS
+const clothes = ['jacket', 't-shirt'];
+clothes.length = 0;
+
+console.log(clothes[0]);
+```
+
+- A: `jacket`
+- B: `undefined`
+- C: `error`
+- D: `not defined`
+
+<br/>
+<details>
+<summary><b>Answer</b></summary>
+<p>
+
+#### Option: B
+
+</p>
+</details>
+</li>
 </ol>
