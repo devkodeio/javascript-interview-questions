@@ -184,7 +184,7 @@ let count = 0;
 foo();
 console.log(typeof a)
 console.log(typeof b)
-````
+```
   
 -   A: `Number Number`
 -   B: `Number undefined`
