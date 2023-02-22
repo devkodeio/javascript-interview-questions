@@ -176,7 +176,7 @@ let count = 0;
 
 **what would be the typeof a and typeof b**
 
-````function foo() {
+```function foo() {
   let a = b = 0;
   a++;
   return a;
